@@ -1,14 +1,1 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="30.000000pt" height="50.000000pt" viewBox="0 0 30.000000 50.000000"
- preserveAspectRatio="xMidYMid meet">
-
-<g transform="translate(0.000000,50.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M22 477 c-12 -13 -22 -27 -22 -32 0 -5 42 -51 92 -102 l93 -93 -93
--93 c-50 -51 -92 -97 -92 -103 0 -13 43 -54 56 -54 15 0 244 235 244 250 0 16
--229 250 -245 250 -6 0 -21 -10 -33 -23z"/>
-</g>
-</svg>
+<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="#c70101" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path></svg>

@@ -34,6 +34,14 @@
     .feed-form {
         padding-left: 20px;
     }
+    .carousel {
+        &__inner {
+            width: 70%;
+            img {
+                width: 100%;
+            }
+        }
+    }
 }
 @media (max-width: 575px) {
     .header {
