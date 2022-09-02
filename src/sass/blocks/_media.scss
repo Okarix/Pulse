@@ -18,6 +18,22 @@
             padding: 0 5px;
         }
     }
+    .title {
+        &_left {
+            font-size: 33px;
+            line-height: 50px;
+            padding-left: 20px;
+        }
+    }
+    .consultation {
+        &__descr {
+            font-size: 19px;
+            padding-left: 20px;
+        }
+    }
+    .feed-form {
+        padding-left: 20px;
+    }
 }
 @media (max-width: 575px) {
     .header {
@@ -36,10 +52,13 @@
     }
     .button {
         width: 145px;
-        &__main {
+        &_main {
             margin-top: 55px;
             width: 250px;
             font-size: 15px;
+        }
+        &_submit {
+            width: 100%;
         }
     }
     .promo {
@@ -68,6 +87,10 @@
     }
     .title {
         font-size: 28px;
+        &_left {
+            font-size: 23px;
+            line-height: 38px;
+        }
     }
     .advantages {
         padding: 55px 0 65px 0;
@@ -87,5 +110,15 @@
             margin-top: 15px;
             font-size: 16px;
         }
+    }
+    .consultation {
+        min-height: 670px;
+        padding: 70px 0 80px 0;
+        &__descr {
+            font-size: 18px;
+        }
+    }
+    .feed-form {
+        width: 280px;
     }
 } 
