@@ -42,6 +42,11 @@
             }
         }
     }
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+    }
 }
 @media (max-width: 575px) {
     .header {
@@ -94,7 +99,7 @@
         }
     }
     .title {
-        font-size: 28px;
+        font-size: 24px;
         &_left {
             font-size: 23px;
             line-height: 38px;
@@ -130,3 +135,21 @@
         width: 280px;
     }
 } 
+.catalog {
+    padding-bottom: 70px;
+    &__tabs {
+        margin-top: 35px;
+    }
+    &__tab {
+        width: 26%;
+        height: 47px;
+        font-size: 10px;
+        line-height: 46px;
+    }
+    &__content {
+        margin-top: 50px;
+    }
+    &-item {
+        margin-bottom: 13px;
+    }
+}
