@@ -50,6 +50,9 @@
             color: #FFFFFF;
             text-transform: uppercase;
             text-decoration-line: underline;
+            &:hover {
+                color: #dad5d5;
+            }
         }
     }    
 }

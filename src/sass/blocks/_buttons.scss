@@ -24,4 +24,8 @@
         height: 40px;
         font-size: 14px;
     }
+    &:hover {
+        background: #900404;
+        transition: 0.5s all;
+    }
 }
