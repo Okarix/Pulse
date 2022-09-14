@@ -203,4 +203,16 @@
                 height: 45px;
         }
     }
+    .modal {
+        &__close {
+            top: 5px;
+            right: 5px;
+        }
+    }
+    .pageup {
+        bottom: 30px;
+        right: 20px;
+        width: 30px;
+        height: 30px;
+    }
 } 

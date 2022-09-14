@@ -7,14 +7,15 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="css/font.css" />
     <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/style.min.css" />
     <title>RunSmart</title>
   </head>
   <body>
-    <section class="promo">
+    <section id="up" class="promo">
       <div class="container">
         <header class="header">
-          <a href="#" class="header__logo">
+          <a href="#up" class="header__logo">
             <img src="icons/main/logo.png" alt="logo" />
           </a>
           <div class="header__official">
@@ -22,8 +23,8 @@
             <span>Garmin, Polar, Suunto</span>
           </div>
           <div class="header__contacts">
-            <a href="tel:+77472746391" class="header__phone"
-              >+7 (747) 274-63-91</a
+            <a href="tel:+74999228974" class="header__phone"
+              >+7 (499) 922-89-74</a
             >
             <button data-modal="consultation" class="button">
               заказать звонок
@@ -55,7 +56,7 @@
           </button>
           <div class="promo__link">
             или
-            <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
+            <a href="#catalog">ПЕРЕЙТИ В КАТАЛОГ</a>
           </div>
         </div>
       </div>
@@ -78,7 +79,7 @@
             <img
               src="icons/form/heart.png"
               alt="heart"
-              class="advantages__icon"
+              class="advantages__icon advantages__icon_animated"
             />
             <div class="advantages__subtitle">Заботимся о здоровье</div>
             <div class="advantages__descr">
@@ -91,7 +92,7 @@
             <div class="advantages__subtitle">Учим бегать</div>
             <div class="advantages__descr">
               Помогаем с обучением правильной технике бега! Дружим с крупнейшей
-              школой бега в России - <a href="#">I LOVE RUNNING.</a>
+              школой бега в России - <a href="https://ilovesupersport.ru/running" target="_blank">I LOVE RUNNING.</a>
             </div>
           </div>
         </div>
@@ -108,7 +109,7 @@
           Просто заполните форму заявки<br />
           и мы перезвоним вам в течении 10 минут
         </div>
-        <form class="feed-form" action="#">
+        <form id="consultation-form" class="feed-form" action="#">
           <input name="name" required placeholder="Ваше имя" type="text" />
           <input name="phone" required placeholder="Ваш телефон" />
           <input name="email" required placeholder="Ваш E-mail" type="email" />
@@ -118,7 +119,7 @@
       </div>
     </section>
 
-    <section class="carousel">
+    <div class="carousel">
       <div class="container">
         <div class="carousel__inner">
           <div><img src="img/slide_1.jpg" alt="slide_1" /></div>
@@ -126,9 +127,9 @@
           <div><img src="img/slide_3.jpg" alt="slide_3" /></div>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section class="catalog">
+    <section id="catalog" class="catalog">
       <div class="container">
         <h2 class="title">Каталог пульсометров</h2>
         <ul class="catalog__tabs">
@@ -511,7 +512,7 @@
     <section class="comment">
       <div class="container">
         <h2 class="title">отзывы клиентов</h2>
-        <div class="comment__item">
+        <div class="comment__item animate__animated animate__fadeInUp wow data-wow-duration="2s" data-wow-delay="1s">
           <img src="img/comment_1.png" alt="comment_1" class="comment__img" />
           <div class="comment__text">
             <div class="comment__subtitle">Ирина Иванченко</div>
@@ -525,7 +526,7 @@
             </div>
           </div>
         </div>
-        <div class="comment__item">
+        <div class="comment__item animate__animated animate__fadeInUp wow data-wow-duration="2s" data-wow-delay="1s">
           <img src="img/comment_2.png" alt="comment_2" class="comment__img" />
           <div class="comment__text">
             <div class="comment__subtitle">Иван Сёмочкин</div>
@@ -540,7 +541,7 @@
             </div>
           </div>
         </div>
-        <div class="comment__item">
+        <div class="comment__item animate__animated animate__fadeInUp wow data-wow-duration="2s" data-wow-delay="1s">
           <img src="img/comment_3.png" alt="comment_3" class="comment__img" />
           <div class="comment__text">
             <div class="comment__subtitle">Юлия Дашкина</div>
@@ -563,15 +564,7 @@
 
     <footer class="footer">
       <div class="footer__map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11791.092009654021!2d69.61435629376425!3d42.36867671860938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38a91d02426a381d%3A0x7eea2a3ae78bdb6!2z0JTQtdC90LTRgNC-0YHQsNGP0LHQsNKb!5e0!3m2!1sru!2skz!4v1662740666541!5m2!1sru!2skz"
-          width="100%"
-          height="100%"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.4303074593686!2d37.64480731568078!3d55.76839799825684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEwNzA3OA!5e0!3m2!1sru!2skz!4v1663011166997!5m2!1sru!2skz" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div class="footer__info">
         <address class="footer__addr">Москва, Мясницкий проезд, д.3с1</address>
@@ -632,16 +625,19 @@
       </div>
     </div>
 
+    <a href="#up" class="pageup">
+      <img src="icons/up.svg" alt="up" />
+    </a>
+
     <script
-      type="text/javascript"
       src="https://code.jquery.com/jquery-1.11.0.min.js"
     ></script>
     <script
-      type="text/javascript"
       src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
     ></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
